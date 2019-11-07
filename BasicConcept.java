@@ -6,17 +6,10 @@ import org.testng.annotations.Test;
 
 public class BasicConcept {
 	WebDriver driver;
-	@Test
-
-	public void aTestCase()
+	 
+	public static void main(String[] args)
 	{
-		String driverPath= System.getProperty("user.dir")
-				 
-				+"\\Browser\\chromedriver.exe";
-		System.setProperty("webdriver.chrome.driver", driverPath);
-		
-		 driver=new ChromeDriver();
-		driver.get("https://www.facebook.com");
-
+		System.out.print("hello");
+		 
 	}	
 }
